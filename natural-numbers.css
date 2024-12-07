@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #e6f2ff; /* Light sea blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+}
+h1 {
+    text-align: center;
+    color: #005b96; /* Deep sea blue */
+    margin-bottom: 20px;
+}
+.calculation-section {
+    background-color: #f0f8ff; /* Very light sea blue */
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #0077be; /* Sea blue */
+}
+h2 {
+    color: #0077be; /* Sea blue */
+    margin-top: 0;
+    font-size: 18px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0077be; /* Sea blue */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0077be; /* Sea blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #005b96; /* Darker sea blue */
+}
+p {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #005b96; /* Deep sea blue */
+}
